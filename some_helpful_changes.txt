@@ -1,0 +1,51 @@
+A helpful link: http://rogerdudler.github.io/git-guide/
+
+Andrew’s:
+
+generated a fine grained token:
+
+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
+
+A clean start:
+
+    0.    clone a local repository in a new folder from the GitHub remote repository:
+
+ git clone https://AndrewYe12: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@github.com/AndrewYe12/ChemStudyGuide.git
+
+    0.    If you want to pull the latest change from the remote repository to your local copy:
+
+git pull origin main
+
+    0.    If you want to add a new file to the source control system:
+
+git add <filename>
+
+or:
+
+git add .     — this will add everything in the folder
+
+    0.    Save this revision of the file:
+
+git commit -m “add the cheet sheet”
+
+    0.    Push the change to the remote repository:
+
+git push origin main
+
+Below are some useful commands:
+
+    0.    To show the log:
+
+git log
+
+    0.    If you want to revert back to one of your earlier revision, find the commit hash from the above “git log” command, run the below:
+
+git revert <commit_hash>
+
+That’s why it is important to add the message to indicate why you committed a change when running the “git commit” command
+
+
+
+
+git pull --rebase origin main
+is a useful command

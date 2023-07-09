@@ -1,0 +1,16 @@
+- git init
+    - Initializes current directory to become a local repository
+
+- git add *
+    - Add everything in the current directory into the index of your repository 
+- git commit -m “Add a Comment Here” 
+    - Commit all the files into HEAD of the repository  
+- Make a Remote Repository 
+-  git remote add origin https://AndrewYe12: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@github.com/AndrewYe12/Remote-Repository-Name.git
+    - The italicized portion is the key for your GitHub account 
+    - This tells the local repository where the local repository should map to 
+        - Where it should push the files
+- git branch -M main
+    - Tell git that I am working on the main branch 
+- git push -u origin main
+    - This pushes the files to the remote repository

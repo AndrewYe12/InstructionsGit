@@ -1,0 +1,6 @@
+- git add *
+    - In order to add changes to the index
+- git commit -m “Comment Here”
+    - Commit changed content to the HEAD of the repository 
+- git push -u origin main 
+    - Push files
